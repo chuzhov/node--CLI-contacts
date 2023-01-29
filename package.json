@@ -1,0 +1,21 @@
+{
+  "name": "goit-node-hw-01-cli-contacts",
+  "version": "1.0.0",
+  "description": "GO IT Node.js HW 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
