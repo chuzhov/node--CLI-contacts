@@ -1,8 +1,6 @@
 const { program } = require("commander");
 const cm = require("./contacts");
 
-// const program = new Command();
-
 program
   .option(
     "-a, --action <type>",
